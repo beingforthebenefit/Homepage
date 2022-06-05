@@ -1,0 +1,151 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.body {
+    margin: 0;
+    height: 100vh;
+}
+
+.sidebar {
+    position: absolute;
+    background-image: linear-gradient(to bottom, #DDDDDD, #FFFFFF);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 15vw;
+    height:100vh;
+    min-width: 220px;
+    overflow-y: scroll;
+}
+
+.sidebar__logo {
+    position: relative;
+    width: 8vw;
+    height: 8vw;
+    align-self: center;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    background: orange;
+    margin: 1vw 3.5vw 2vw 3.5vw;
+    font: bold 4vw/8vw Arial;
+}
+
+.sidebar__title {
+    align-self: center;
+    font: 24px Helvetica;
+    padding: 6px;
+}
+
+.sidebar__subtitle {
+    align-self: center;
+    font: italic 12px Helvetica;
+    padding: 5px;
+}
+
+.sidebar__separator {
+    width: 100%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+    margin-top: 20px;
+}
+
+.sidebar__menu {
+    margin-left: 2vw;
+}
+
+.sidebar-contact-link__wrap,
+.sidebar-menu-link__wrap {
+    padding: 10px;
+}
+
+.sidebar-menu__link {
+    color: #222222;
+    font: small-caps 20px Arial;
+    text-decoration: none;
+}
+
+.sidebar-menu__link:hover {
+    color: #999999;
+}
+
+.sidebar-contact-link__wrap {
+    justify-content: flex-end;
+}
+
+.sidebar-contact__link {
+    color: #0A122A;
+    font: 14px Arial;
+    text-decoration: none;
+}
+
+.sidebar-contact__link:hover {
+    color: #554C89;
+}
+
+.body__main {
+    position: absolute;
+    margin: 20px 5vw 0 calc(10vw + 180px);
+}
+
+.body-section__wrap {
+
+}
+
+.body-section__header {
+    font: small-caps 22px Helvetica;
+    padding: 20px 0;
+    color: #2079c7;
+}
+
+.body-section__title {
+    color: #333333;
+    font: bold 16px/25px Helvetica;
+}
+
+.body-section__subtitle {
+    color: #888888;
+    font: bold 14px/30px Arial;
+}
+
+.body-section__paragraph,
+.body-section__ulist {
+    font: 14px/20px Arial;
+}
+
+.body-section__link {
+    text-decoration: none;
+}
+
+.body-section__link:hover {
+    text-decoration: underline;
+}
+
+.body-main__footer {
+    font: 12px Arial;
+    text-align: center;
+    margin: 20px;
+}
+
+.body-image__wrap,
+.body-image__wrap--right,
+.body-image__wrap--left {
+    padding: 10px;
+}
+
+.body-image__wrap--right {
+    float: right;
+}
+
+.body-image__wrap--left {
+    float: left;
+}
+
+.body__image {
+}
+
+.body-image__caption {
+    font: 12px Arial;
+}
